@@ -63,3 +63,6 @@ install:
 	install -d $(DESTDIR)$(MANDIR)/man1
 	install -m 755 $(PROG) $(DESTDIR)$(PREFIX)/bin
 	install -m 644 b2sum.1 $(DESTDIR)$(MANDIR)/man1/$(PROG).1
+uninstall:
+	rm -f $(DESTDIR)$(PREFIX)/bin/$(PROG) $(DESTDIR)$(MANDIR)/man1/$(PROG).1
+
