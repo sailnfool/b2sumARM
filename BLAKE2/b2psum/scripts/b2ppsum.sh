@@ -43,6 +43,6 @@ if [[ "${0##*/}" == b2spsum ]]
 then
   b2psum -a blake2sp $@
 else
-  b2psum -a blask2bp $@
+  b2psum -a blake2bp $@
 fi
 
