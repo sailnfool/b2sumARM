@@ -66,11 +66,10 @@ install:
 	make linstall
 	cd ..
 
-scripts:
-	cd scripts
-	make luninstall linstall
-	cd ..
-
+# scripts:
+# 	cd scripts
+# 	make uninstall install
+# 	cd ..
+#
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/$(PROG) $(DESTDIR)$(MANDIR)/man1/$(PROG).1
-
