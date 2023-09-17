@@ -62,9 +62,9 @@ install:
 	install -d $(DESTDIR)$(MANDIR)/man1
 	install -m 755 $(PROG) $(DESTDIR)$(PREFIX)/bin
 	install -m 644 b2psum.1 $(DESTDIR)$(MANDIR)/man1/$(PROG).1
-	cd ./scripts
-	make linstall
-	cd ..
+#	cd ./scripts
+#	make linstall
+#	cd ..
 
 # scripts:
 # 	cd scripts
